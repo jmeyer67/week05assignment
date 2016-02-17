@@ -1,0 +1,62 @@
+body {
+	font-family: "Arial", sans serif;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+a {
+	color: #3F334D;
+}
+
+.header,
+.sidebar,
+.article,
+.footer {
+	padding: 1rem;
+}
+
+.header {
+	background-color: #00A6A6;
+}
+
+.logo {
+	display: block;
+	width: 6rem;
+}
+
+.nav__list {
+	list-style-type: none;
+}
+
+.nav__list-item {
+	display: inline-block;
+	font-weight: 700;
+}
+
+.sidebar {
+	background-color: #574B60;
+}
+
+.subscribe__label {
+	color: #fff;
+}
+
+.subscribe__input {
+	width: 100%;
+}
+
+.article p:last-child {
+	margin-bottom: 0;
+}
+
+.footer {
+	background-color: #7D8491;
+}
+
+.footer p {
+	color: #fff;
+	margin-bottom: 0;
+	text-align: center;
+}
