@@ -5,4 +5,40 @@ body {
 .wrapper {
 	margin: 0 auto;
 	max-width: 80rem;
+
+
+
+}
+@media screen and (max-width: 44em) {
+	nav {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	nav {
+
+		flex-direction: row;
+		justify-content:flex-end;
+	}
+    .logo {
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+	.header{
+		display: inline-flex;
+		align-items: center;
+		width:100%;
+
+	}
+	.main {
+		display:flex;
+
+	}
+    .article {
+        align-self:flex-end ;
+    }
+    .sidebar {
+        align-self: stretch;
+    }
 }
